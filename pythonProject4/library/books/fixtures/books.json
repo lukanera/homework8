@@ -1,0 +1,161 @@
+[
+  {
+    "model": "books.author",
+    "pk": 1,
+    "fields": {
+      "name": "J.K. Rowling"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 2,
+    "fields": {
+      "name": "George R.R. Martin"
+    }
+  },
+  {
+    "model": "books.category",
+    "pk": 1,
+    "fields": {
+      "name": "Fantasy"
+    }
+  },
+  {
+    "model": "books.category",
+    "pk": 2,
+    "fields": {
+      "name": "Adventure"
+    }
+  },
+  {
+    "model": "books.category",
+    "pk": 3,
+    "fields": {
+      "name": "Science Fiction"
+    }
+  },
+  {
+    "model": "books.category",
+    "pk": 4,
+    "fields": {
+      "name": "Mystery"
+    }
+  },
+  {
+    "model": "books.category",
+    "pk": 5,
+    "fields": {
+      "name": "Horror"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "description": "A young wizard begins his journey in the magical world.",
+      "author": 1,
+      "rating": 10,
+      "category": [1, 2]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+      "title": "Harry Potter and the Chamber of Secrets",
+      "description": "Harry returns to Hogwarts for a second year of magic and mystery.",
+      "author": 1,
+      "rating": 10,
+      "category": [1, 4]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "title": "A Game of Thrones",
+      "description": "Noble families vie for control of the Iron Throne in a fantasy realm.",
+      "author": 2,
+      "rating": 8,
+      "category": [1, 4]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "title": "A Clash of Kings",
+      "description": "The battle for the Seven Kingdoms continues.",
+      "author": 2,
+      "rating": 8,
+      "category": [1, 2]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 5,
+    "fields": {
+      "title": "The Winds of Winter",
+      "description": "A continuation of the epic saga of Westeros.",
+      "author": 2,
+      "rating": 10,
+      "category": [1, 3]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 6,
+    "fields": {
+      "title": "Fantastic Beasts and Where to Find Them",
+      "description": "A magical adventure through the world of mythical creatures.",
+      "author": 1,
+      "rating": 8,
+      "category": [1, 3]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 7,
+    "fields": {
+      "title": "The Mystery of the Runes",
+      "description": "An ancient mystery unravels in the magical world.",
+      "author": 1,
+      "rating": 6,
+      "category": [1, 4]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 8,
+    "fields": {
+      "title": "Dark Secrets of the Castle",
+      "description": "A horror story set in a cursed castle.",
+      "author": 2,
+      "rating": 8,
+      "category": [5, 4]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 9,
+    "fields": {
+      "title": "Wizards and Wands",
+      "description": "An epic adventure of magic and discovery.",
+      "author": 1,
+      "rating": 4,
+      "category": [1, 2]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 10,
+    "fields": {
+      "title": "The Shadows of Winterfell",
+      "description": "A chilling tale from the dark corners of Westeros.",
+      "author": 2,
+      "rating": 8,
+      "category": [5, 1]
+    }
+  }
+]
